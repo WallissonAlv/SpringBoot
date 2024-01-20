@@ -40,6 +40,15 @@ public class Remedio { 		// ISTO É UMA ENTIDADE !!!
 	//METODOS ESPECIAIS -------------------------------
 	//GETTERS -----------------------------------------
 	
+	public Remedio(DadosCadastroRemedio dados) {
+		this.nome 		 = dados.nome();
+		this.via 		 = dados.via();
+		this.lote 		 = dados.lote();
+		this.quantidade  = dados.quantidade();
+		this.validade 	 = dados.validade();
+		this.laboratorio = dados.laboratorio();
+	}
+	
 	public Long getId() {
 		return id;
 	}
