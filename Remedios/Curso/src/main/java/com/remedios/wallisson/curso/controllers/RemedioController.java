@@ -12,7 +12,8 @@ import com.remedios.wallisson.curso.remedio.DadosCadastroRemedio;
 public class RemedioController {
 	
 	@PostMapping
-	public void cadastrar(@RequestBody DadosCadastroRemedio dados) {
+	public void cadastrar(@RequestBody DadosCadastroRemedio dados) //ESTE É O DTO :D
+	{
 		System.out.println(dados);
 	}
 

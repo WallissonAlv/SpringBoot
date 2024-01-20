@@ -1,11 +1,11 @@
 package com.remedios.wallisson.curso.remedio;
 
-public record DadosCadastroRemedio (
+public record DadosCadastroRemedio ( // ISTO E UM DTO!!!
 		String nome,
 		Via via, 
 		String lote, 
 		String quantidade,
-		String validadea, 
+		String validade, 
 		Laboratorio laboratorio) {
 
 }
